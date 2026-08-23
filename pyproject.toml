@@ -1,0 +1,12 @@
+[project]
+name = "bard"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "click>=8.4.2",
+    "spacy>=3.8.13",
+]
+
+[build-system]
+requires = ["uv_build >=0.12.4, <0.13.0"]
+build-backend = "uv_build"
